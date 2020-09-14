@@ -7,7 +7,7 @@
 <div class="content m-12">
 <div class="intro ">
 	
-<div class="photo inline h-250 inline  float-left w-200 mr-6 mb-2"><h1 class="mb-5 capitalize  text-xl text-red-800">About : </h1><img alt='Me' src='me.jpg' class=""></div>
+<div class="photo inline h-1/2 inline  float-left w-1/2 mr-6 mb-2"><h1 class="mb-5 capitalize  text-xl text-red-800">About : </h1><img alt='Me' src='me2.jpg' class=""></div>
 <div class="text-intro mt-8 ml-5 w-3/5 inline leading-7">
 <p class="inline"> <br>I am Ph.D student working  under the supervison of <a href="http://researchers.lille.inria.fr/~loscri/personal-injury.html" class="underline text-gray-900"> Valeria Loscrí</a>
 	and <a href="https://antoine-gallais.github.io" class="underline text-gray-900">Antoine Gallais</a> in Future Ubiquitous Networks <a href="https://team.inria.fr/fun">(FUN)</a> team at Inria Lille Nord Europe. </p>

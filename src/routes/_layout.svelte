@@ -15,7 +15,7 @@
 <Nav {segment}/>
 
 <main class=" bg-gray-200"	>
-	<div class="grid gap-4 grid-cols-3">
+	<div class="grid gap-3 grid-cols-3">
 		<div class="col-span-2  m-10 bg-white"><slot ></slot></div>	
 		<div class="col-span-1   m-10"><Contact contact_info={DATA.CONTACT_DATA}/></div>
 	  </div>
