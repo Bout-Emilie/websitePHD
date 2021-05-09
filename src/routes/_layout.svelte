@@ -10,16 +10,49 @@
     @tailwind base;
     @tailwind components;
     @tailwind utilities;
+
+	.lg\:mx-width-30 {
+		min-width: min(100vw, 350px);
+		max-width: 30%;
+	}
+
+	:global(#sapper) {
+		position: relative;
+		padding-top: 55px;
+		width: 100%;
+		min-height: 100vh;
+		display: flex;
+		flex-direction: column;
+	}
+
+	main {
+		flex-grow: 1;
+		min-height: 100%;
+	}
+
+	@media screen and (max-width: 1024px) {
+		.lg\:mx-width-30 {
+			margin-left: 0;
+			max-width: 100%;
+		}
+	}
+
+	.ac {
+		min-height: 100%;
+		max-width: 100%;
+		width: calc(100% - 5em);
+	}
 </style>
 
 <Nav {segment}/>
-
-<main class=" bg-gray-200"	>
-	<div class="grid gap-3 grid-cols-3">
-		<div class="col-span-2  m-10 bg-white"><slot ></slot></div>	
-		<div class="col-span-1   m-10"><Contact contact_info={DATA.CONTACT_DATA}/></div>
-	  </div>
-
-	  <Footer/>
+<main class="flex flex-col bg-gray-200 min-h-full">
+	<div class="flex lg:flex-row flex-col min-h-full max-w-full w-full">
+		<div class="m-10 bg-white ac">
+			<slot></slot>
+		</div>	
+		<div class="col-span-1 m-10 lg:m-5 lg:mx-width-30 h-full ">
+			<Contact contact_info={DATA.CONTACT_DATA}/>
+		</div>
+	</div>
 </main>
-
+<Footer/>
