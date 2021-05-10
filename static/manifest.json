@@ -1,18 +1,18 @@
 {
 	"background_color": "#ffffff",
-	"theme_color": "#333333",
-	"name": "TODO",
-	"short_name": "TODO",
+	"theme_color": "##c53030",
+	"name": "BOUT Emilie, BOUT Emilie, Ph.D Student in Computer Science",
+	"short_name": "BOUT Emilie",
 	"display": "minimal-ui",
 	"start_url": "/",
 	"icons": [
 		{
-			"src": "logo-192.png",
+			"src": "e.png",
 			"sizes": "192x192",
 			"type": "image/png"
 		},
 		{
-			"src": "logo-512.png",
+			"src": "e.png",
 			"sizes": "512x512",
 			"type": "image/png"
 		}
