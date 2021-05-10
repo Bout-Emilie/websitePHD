@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>cv</title>
+	<title>CV  | BOUT Emilie</title>
 </svelte:head>
 
 <div class="m-12">

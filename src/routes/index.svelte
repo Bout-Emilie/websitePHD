@@ -1,3 +1,7 @@
+<svelte:head>
+	<title>Home | BOUT Emilie</title>
+</svelte:head>
+
 <div class="content m-12">
 <div class="intro ">
 	
