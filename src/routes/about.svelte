@@ -1,5 +1,11 @@
+<script>
+import { goto } from '@sapper/app';
+import { onMount } from 'svelte';
+onMount(() => goto('/'));
+</script>
+
 <svelte:head>
-	<title>About</title>
+	<title>About | BOUT Emilie</title>
 </svelte:head>
 
 

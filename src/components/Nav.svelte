@@ -8,7 +8,7 @@
   </script>
 
 <!-- TODO: Adding Inria icon in responsive -->
-<header class={`flex fixed top-0 w-full items-center ${isSubMenuActive ? 'justify-center' : 'justify-between'} flex-wrap bg-red-700 p-3`}>
+<header class={`flex fixed top-0 w-full items-center ${isSubMenuActive ? 'justify-center' : 'justify-between'} flex-wrap bg-red-700 p-3 z-50`}>
 	<div class={`text-white lg:mr-1 flex flex-wrap flex-col ${isSubMenuActive ? 'items-center my-3' : 'items-start'}`}>
 	  <div class="font-semibold text-lg tracking-tight w-3/5">Emilie Bout</div>
 	  <div class="  tracking-tight text-xs text-center">Ph.D Student in Computer Science</div>

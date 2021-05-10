@@ -1,5 +1,5 @@
 <svelte:head>
-	<title>teaching</title>
+	<title>Teaching | BOUT Emilie</title>
 </svelte:head>
 
 <div class="m-12 c">
