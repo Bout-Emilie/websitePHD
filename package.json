@@ -1,6 +1,6 @@
 {
-  "name": "TODO",
-  "description": "TODO",
+  "name": "bout-emilie",
+  "description": "The website of BOUT Emilie, Ph.D Student in Computer Science",
   "version": "0.0.1",
   "scripts": {
     "dev": "sapper dev",
