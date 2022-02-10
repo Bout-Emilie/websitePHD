@@ -16,7 +16,7 @@
 <h2><spam class="font-medium">Posters:</spam></h2>
 <ul class="list-disc ml-12 mb-2 mt-2">
     <li> <a href="poster-power.pdf" class="underline">GT SSLR 2021</a></li>
-    <li> <a href="Poster-scholl.pdf" class="underline">Future-IoT summer scholl 2020</a></li>
+    <li> <a href="Poster-scholl.pdf" class="underline">Future-IoT summer school 2020</a></li>
 </ul>
 <h2><spam class="font-medium">Forum:</spam></h2>
 <ul class="list-disc ml-12 mb-2 mt-2">
