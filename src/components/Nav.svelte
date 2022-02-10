@@ -35,6 +35,9 @@
 		<a href="teaching" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white lg:mr-4" on:click={hide_menu}>
 		  Teaching
 		</a>
+		<a href="communication" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white lg:mr-4" on:click={hide_menu}>
+			Communication
+		  </a>
 		  </div>
 	  <div>
 		<a href="https://www.inria.fr/fr" target="_blank" rel="nofollow" class="hidden lg:block">
