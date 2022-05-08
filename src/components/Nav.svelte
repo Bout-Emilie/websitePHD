@@ -32,6 +32,9 @@
 		<a href="publication" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white lg:mr-4" class:selected={segment === undefined} on:click={hide_menu}>
 		  Publications
 		</a>
+		<a href="technical" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white lg:mr-4" class:selected={segment === undefined} on:click={hide_menu}>
+			Technical Report
+		  </a>
 		<a href="teaching" class="block mt-4 lg:inline-block lg:mt-0 text-white hover:text-white lg:mr-4" on:click={hide_menu}>
 		  Teaching
 		</a>
